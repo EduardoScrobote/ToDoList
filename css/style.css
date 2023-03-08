@@ -1,0 +1,66 @@
+#main {
+    text-align: center;
+    width: 35%;
+    height: 50%;
+    box-sizing: border-box;
+    border-radius: 20px;
+    position: relative;
+    top: 50%;
+    left: 35%;
+}
+
+#list {
+    text-align: left;
+    list-style-type: none;
+}
+
+li {
+    padding-top: 1rem;
+}
+
+body {
+    font-family: 'Oxygen', sans-serif;
+    background-image: url(../public/img/todo.png);
+    background-size: cover;
+}
+#btnAdd {
+    padding: 1rem;
+    background-color: rgba( 44, 90, 222, 0.8);
+    transition: 0.4s;
+    cursor: pointer;
+    position: relative;
+    right: 2rem;
+    bottom: 1px;
+}
+#btnAdd:hover{
+    background-color: rgb(44, 68, 222);
+    padding: 1.25rem;
+}
+
+#inputTaref{
+    padding: 1rem;
+    background-color: rgba(4, 32, 63, 0.8);
+    transition: 0.4s;
+    color: rgb(73, 73, 73);
+    border-radius: 5px;
+    color: azure;
+}
+
+#inputTaref:hover {
+    background-color: rgba(9, 57, 112,);
+    padding: 1.12rem;
+}
+
+button{
+    padding: 1px;
+    margin-left: 2rem;
+    background-color: rgba(44, 68, 222, 0.519);
+    transition: 0.3s;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: rgba(230, 22, 22);
+    padding: 3px;
+}
